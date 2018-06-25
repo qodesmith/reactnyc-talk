@@ -27,7 +27,9 @@ class Companies extends Component {
           step > 0 &&
           <div className='tc'>
             <div className='f-0-7em'>James Gallagher</div>
-            <div className='f-0-7em'>jamesgallagher@transfix.io</div>
+            <div className='f-0-7em'>
+              <a href='mailto:jamesgallagher@transfix.io'>jamesgallagher@transfix.io</a>
+            </div>
           </div>
         }
         {
@@ -36,7 +38,9 @@ class Companies extends Component {
             <hr />
             <h1 className='f-1-5em ma0'>Bloomberg</h1>
             <div className='f-0-7em'>Wendy Kim</div>
-            <div className='f-0-7em'>wkim93@bloomberg.net</div>
+            <div className='f-0-7em'>
+              <a href='mailto:wkim93@bloomberg.net'>wkim93@bloomberg.net</a>
+            </div>
           </div>
         }
         {
@@ -44,9 +48,15 @@ class Companies extends Component {
           <div className='tc'>
             <hr />
             <h1 className='f-1-5em ma0'>Aaron Cordova</h1>
-            <div className='f-0-7em'>aaroncordova.xyz</div>
-            <div className='f-0-7em'>freestylefam.com</div>
-            <div className='f-0-7em'>theqodesmith@gmail.com</div>
+            <div className='f-0-7em'>
+              <a href='http://aaroncordova.xyz'>aaroncordova.xyz</a>
+            </div>
+            <div className='f-0-7em'>
+              <a href='http://freestylefam.com'>freestylefam.com</a>
+            </div>
+            <div className='f-0-7em'>
+              <a href='mailto:theqodesmith@gmail.com'>theqodesmith@gmail.com</a>
+            </div>
           </div>
         }
       </div>
