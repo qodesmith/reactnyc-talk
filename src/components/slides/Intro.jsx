@@ -51,7 +51,26 @@ class Intro extends Component {
         </div>
         {
           step > 4 &&
-          <div>Quest The Wordsmith => Qodesmith</div>
+          <div className='code tl dib mha'>
+            <div>
+              <span className='turquoise i'>function</span> <span className='lime'>changeMyLife</span>(<span className='orange i'>me</span>) {'{'}
+            </div>
+            <div>
+              &nbsp;&nbsp;<span className='deeppink'>delete</span> me<span className='deeppink'>.</span>trackWorker <span className='gray'>// Bye bye.</span>
+            </div>
+            <br />
+            <div>
+              &nbsp;&nbsp;me<span className='deeppink'>.</span>hipHopArtist <span className='deeppink'>=</span> <span className='yellow'>'woulda been great'</span>
+            </div>
+            <div>
+              &nbsp;&nbsp;me<span className='deeppink'>.</span>webDeveloper <span className='deeppink'>=</span> <span className='yellow'>'finally found my calling'</span>
+            </div>
+            <br />
+            <div>
+              &nbsp;&nbsp;<span className='deeppink'>return</span> me;
+            </div>
+            <div>{'}'}</div>
+          </div>
         }
       </div>
     )
