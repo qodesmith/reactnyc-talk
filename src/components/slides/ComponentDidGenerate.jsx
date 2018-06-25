@@ -89,7 +89,12 @@ class ComponentDidGenerate extends Component {
         {
           step > 12 &&
           <div>
-            <div>Create <span className='i'>New</span> App!</div>
+            <div className='mb4'>
+              Create <span className='i'>New</span> App!
+              <div className='f-0-5em'>
+                <a href='https://www.npmjs.com/package/create-new-app'>npmjs.com/package/create-new-app</a>
+              </div>
+            </div>
 
             {
               step > 13 &&
