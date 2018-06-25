@@ -8,7 +8,7 @@ class App extends Component {
     this.lastSlide = slides.length - 1
     this.state = {
       error: null,
-      slide: 5
+      slide: 0
     }
   }
 

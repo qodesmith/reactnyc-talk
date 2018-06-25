@@ -40,9 +40,15 @@ class Intro extends Component {
           </div>
         }
 
-        <img src={quest} width='33%' className={step > 1 ? 'pv6' : 'dn'} />
-        <img src={mta} width='33%' className={step > 2 ? 'pv6' : 'dn'} />
-        <img src={developer} width='33%' className={step > 3 ? 'pv6' : 'dn'} />
+        <div className='dib intro-img'>
+          <img src={quest} width='100%' className={step > 1 ? 'mv6' : 'dn'} />
+        </div>
+        <div className='dib intro-img'>
+          <img src={mta} width='100%' className={step > 2 ? 'mv6' : 'dn'} />
+        </div>
+        <div className='dib intro-img'>
+          <img src={developer} width='100%' className={step > 3 ? 'mv6' : 'dn'} />
+        </div>
         {
           step > 4 &&
           <div>Quest The Wordsmith => Qodesmith</div>
